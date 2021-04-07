@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kannan-Portfolio</title>
+        <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="resume.css">
+    </head>
+<body id="base">
+
+<h2>Hey I am Kannan</h2>
+
+
+<div id="navi">
+<a href="#" id="myBtn">Home</a>
+<a href="#" id="myBt">Skills</a>
+<a href="#" id="myB">Projects</a>
+<a href="#" id="my">Contact</a>
+<a href="#" id="m">About</a>
+</div>
+<p id="root"></p>
+<div id="id1">
+<div id="home" >
+               <img  id="pic" src="C:\Users\kanna\Downloads\circle-cropped.png" alt="image" width="200" height="200" >
+              <i id="home1">Hi I am Kannan<br>An Engineer from Anna University </i>
+
+            </div>
+<div id="skills" >
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>AngularJS</li>
+                    <li>Python</li>
+                </ul>
+            </div>
+ <div id="project" >
+                <a href="https://github.com/kannan3757/js/blob/main/cricket.js" target="_blank">Cricket Game using Javascript</a>
+
+            </div>
+ <div id="contact">
+                <address>
+                   <p>Kannan</p>
+                   <p>Mobile:9003318827</p>
+                   <a href="mailto:kannans710@gmail.com">Mail</a>
+                </address>
+                </div>
+ <div id="about">
+                    <p>Regards</p>
+                </div>
+            </div>
+<footer id="foot">
+   <a href="https://twitter.com/Kannan30823074" target="_blank"> <img src="C:\Users\kanna\Downloads\twitter.png" alt="" width="20" height="20"></a>
+   <a href="https://www.instagram.com/kannan_3757/" target="_blank"> <img src="C:\Users\kanna\Downloads\instagram.png" alt=""width="20" height="20"></a>
+    <a href="https://www.facebook.com/kannan.selvam23/"target="_blank"><img src="C:\Users\kanna\Downloads\facebook.png" alt=""width="20" height="20"></a>
+</footer>
+
+<script>
+    document.getElementById("root").innerHTML=document.getElementById("home").innerHTML;
+
+document.getElementById("myBtn").addEventListener("click", function() {
+  document.getElementById("root").innerHTML=document.getElementById("home").innerHTML
+});
+document.getElementById("myBt").addEventListener("click", function() {
+   document.getElementById("root").innerHTML=document.getElementById("skills").innerHTML
+});
+document.getElementById("myB").addEventListener("click", function() {
+   document.getElementById("root").innerHTML=document.getElementById("project").innerHTML
+});
+document.getElementById("my").addEventListener("click", function() {
+   document.getElementById("root").innerHTML=document.getElementById("contact").innerHTML
+});
+document.getElementById("m").addEventListener("click", function() {
+   document.getElementById("root").innerHTML=document.getElementById("about").innerHTML
+});
+</script>
+
+</body>
+</html>
