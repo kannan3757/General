@@ -2,8 +2,7 @@
 <html>
     <head>
         <title>Kannan-Portfolio</title>
-        <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+        
       <link rel="stylesheet" href="resume.css">
     </head>
 <body id="base">
@@ -27,11 +26,17 @@
             </div>
 <div id="skills" >
                 <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Javascript</li>
-                    <li>AngularJS</li>
-                    <li>Python</li>
+                    <label for="file">HTML</label><br>
+                    <progress id="file" value="90" max="100"> 90% </progress><br>
+                    <label for="file">CSS</label><br>
+                    <progress id="file" value="80" max="100"> 80% </progress><br>
+                    <label for="file">Javascript</label><br>
+                    <progress id="file" value="90" max="100"> 90% </progress><br>
+                    <label for="file">Angular Js</label><br>
+                    <progress id="file" value="70" max="100"> 70% </progress><br>
+                    <label for="file">Python</label><br>
+                    <progress id="file" value="70" max="100"> 70% </progress>
+                   
                 </ul>
             </div>
  <div id="project" >
@@ -44,6 +49,11 @@
                    <p>Mobile:9003318827</p>
                    <a href="mailto:kannans710@gmail.com">Mail</a>
                 </address>
+                <br>
+                    <a href="https://twitter.com/Kannan30823074" target="_blank"> <img src="C:\Users\kanna\Downloads\twitter.png" alt="" width="20" height="20"></a>&nbsp;
+                    <a href="https://www.instagram.com/kannan_3757/" target="_blank"> <img src="C:\Users\kanna\Downloads\instagram.png" alt=""width="20" height="20"></a>&nbsp;
+                     <a href="https://www.facebook.com/kannan.selvam23/"target="_blank"><img src="C:\Users\kanna\Downloads\facebook.png" alt=""width="20" height="20"></a>&nbsp;
+                
                 </div>
  <div id="about">
                     <p>Regards</p>
@@ -77,3 +87,4 @@ document.getElementById("m").addEventListener("click", function() {
 
 </body>
 </html>
+
